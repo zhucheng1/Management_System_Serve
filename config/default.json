@@ -1,0 +1,26 @@
+{
+	"config_name" : "develop",
+	"jwt_config" : {
+		"secretKey":"itcast",
+		"expiresIn":86400
+	},
+	"upload_config":{
+		"baseURL":"http://127.0.0.1:8888",
+		"upload_ueditor":"uploads/ueditor",
+		"simple_upload_redirect":"http://127.0.0.1/reload"
+	},
+	"db_config" : {
+		"protocol" : "mysql",
+		"host" : "127.0.0.1",
+<<<<<<< HEAD
+		"database" : "vue_shop",
+		"user" : "bubble",
+		"password" : "123456",
+=======
+		"database" : "mydb",
+		"user" : "root",
+		"password" : "root",
+>>>>>>> 9bda83b (管理系统后端代码)
+		"port" : 3306
+	}
+}
